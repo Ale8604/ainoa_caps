@@ -1,0 +1,68 @@
+.banner{
+    background-color: #289FB5;
+    height: 350px;
+}
+
+.contex{
+    width: auto;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.principal{
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.secundario{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cont-logo{
+    background-image: url('./ainoacaps2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 47%;
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .contex p{
+        text-align: left;
+        justify-content: left;
+        padding-left: 60px;
+    }
+    .cont-logo{
+        display: block;
+        bottom: 200px;
+        left: 750px;
+    }
+    .principal{
+        font-size: 2.3rem;
+    }
+    .secundario{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cont-logo{
+        display: block;
+        bottom: 300px;
+        left: 60rem;
+    }
+    .contex p{
+        text-align: left;
+        justify-content: left;
+        padding-left: 100px;
+    }
+}
