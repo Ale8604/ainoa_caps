@@ -1,0 +1,165 @@
+
+.carritos{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    padding-bottom: 5rem;
+    visibility: hidden;
+}
+
+.carrito h2{
+    text-align: center;
+    font-size:2rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 0 1px 20px #289FB5;
+}
+.carritos.show{
+    visibility: visible;
+   
+}
+.carrito.show{
+    transform: translate(-50%,-50%) scale(1.1);
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.carrito{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.5);
+    width: 60%;
+    height: 80%;
+    border-radius: 8px ;
+    overflow-x: scroll;
+    transition: all 300ms ease-in-out;
+    background-color: rgb(32, 27, 27);
+    opacity: 0; 
+    visibility: hidden; 
+}
+
+.carrito-close box-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: all 300ms ease-in-out;
+    margin: 3rem 0 0 2rem;
+}
+
+.carrito-close box-icon:hover{
+    transition: .30s;
+    fill: #289FB5;
+}
+
+.carrito-center{
+    width: 90% ;
+    margin: 0 auto;
+}
+
+.carrito-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    width: 80%;
+    margin: 2rem auto;
+    box-shadow: 0 1px 10px #289FB5;
+    border-radius: 5px;
+    align-items: center;
+}
+.carrito-item img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.carrito-item h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 20px #289FB5;
+    text-transform: uppercase;
+}
+.carrito-item .price{
+    color: #289FB5;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.carrito-item box-icon{
+    fill: #289FB5;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.carrito-item .cantidad{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 1px 20px #289FB5;
+}
+.carrito-item .remove-item box-icon{
+    width: 50px;
+    height: 70px;
+}
+.carrito-footer{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.carrito-footer h3{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white ;
+    text-shadow: 0 1px 20px #289FB5;
+}
+.carrito-footer .btn-buy{
+    display: inline-block;
+    padding: .3rem 5rem;
+    font-size: 1.2rem;
+    background-color: #289FB5;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.carrito-footer .btn-buy:hover{
+    transition: .30s;
+    background-color: #28a0b5bb;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .carrito-item{
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .carrito{
+        width: 100%;
+        height: 100%;
+        padding: 1rem ;
+    }
+    .carrito-item h3{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .carrito-item h3{
+        display: none;
+    }
+    .price{
+        margin-top: 0px;
+    }
+}
+
+
+
+

@@ -1,14 +1,17 @@
 import React from "react";
 import "./banner.css"
+import img from './ainoacaps2.jpg'
 
 export function FrontPanel () {
     return (
-        <div className="banner">
-            <div className="contex">
-                <p className="principal"> Vive La Experiencia y <br/> Calidad  De Ainoa Caps </p>
-                <p className="secundario">La Mejor Calidad</p>
-                <div className="cont-logo"></div>
-            </div>
-        </div>
+        <section className="home">
+                <div className="contex">
+                    <p className="principal"> Vive La Experiencia y Calidad  De Ainoa Caps </p>
+                    <p className="secundario">La Mejor Calidad</p>
+                </div>
+                <div className="logo_dos">
+                        <img src={img} alt="" className="logo"/>
+                </div>
+        </section>
     );
 }

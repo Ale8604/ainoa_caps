@@ -1,51 +1,60 @@
-.banner{
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
     background-color: #289FB5;
-    height: 350px;
 }
 
 .contex{
-    width: auto;
-    margin: auto;
-    padding-top: 100px;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo_dos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 
+.logo{
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+   
+}
+
+
+
 .principal{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2rem;
     text-align: center;
+    text-align: left;
+    width: 380px;
 
 }
 
 .secundario{
-    text-align: center;
     padding-top: 10px;
-}
-
-.cont-logo{
-    background-image: url('./ainoacaps2.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    bottom: 47%;
-    display: none;
+    font-weight: 500;
+    text-align: left;
+    width: 377px;
+    color: #234147;
 }
 
 @media (min-width: 1000px) {
-    .contex p{
-        text-align: left;
-        justify-content: left;
-        padding-left: 60px;
-    }
-    .cont-logo{
-        display: block;
-        bottom: 200px;
-        left: 750px;
-    }
+
     .principal{
         font-size: 2.3rem;
     }
@@ -54,15 +63,24 @@
     }
 }
 
-@media (min-width: 1200px) {
-    .cont-logo{
-        display: block;
-        bottom: 300px;
-        left: 60rem;
+@media (max-width: 728px) {
+    .home{
+        flex-direction: column;
     }
-    .contex p{
-        text-align: left;
-        justify-content: left;
-        padding-left: 100px;
+
+    .logo{
+        width: 280px;
+        height: 280px;
+        padding-bottom: 20px
+    }
+    .principal{
+        font-size: 1.5rem;
+        text-align: center;
+        justify-content: center;
+        width: 250px;
+    }
+    .secundario{
+        text-align: center;
+        width: 200px;
     }
 }

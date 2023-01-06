@@ -1,10 +1,26 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Kaushan Script', cursive;
+    
 }
 
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html::-webkit-scrollbar{
+    width: 12px;
+    background: #191922;
+    border-left: #32323d solid 1px;
+}
+html::-webkit-scrollbar-thumb{
+    background: #289FB5;
+    border: 2px solid #32323d;
+    border-radius: 10px;
 }
 
 header{
@@ -13,6 +29,8 @@ header{
     font-weight: 500;
     text-transform: uppercase;
 }
+
+
 
 .img{
     background-image: url('./logo.png');
@@ -32,7 +50,18 @@ header{
 .conteiner span{
     margin: auto;
     padding-bottom: 20px;
-   
+}
+.conteiner p{
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:-webkit-any-link {
+    color: #289FB5;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    
 }
 
 @media (min-width: 426px) {
@@ -50,4 +79,14 @@ header{
     padding-right: 60px;
     padding-top: 15px;
    }
+   
+}
+
+nav span :hover{
+    transition: 1.5s;
+    color: black;
+    background-color: #289FB5;
+    padding: 25px;
+    transform: scale(0.8);
+
 }

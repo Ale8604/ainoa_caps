@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "provedor": "Ainoa Caps",
+        "brand":"Fox",
+        "price":15,
+        "category": "Fox",
+        "img": "https://i.ibb.co/Pg5Rqsq/gorra1.jpg"
+
+    },
+    {
+        "id": 2,
+        "provedor": "Ainoa Caps",
+        "brand": "fox racing",
+        "price":15,
+        "category": "Fox",
+        "img": "https://i.ibb.co/xDGKwjh/gorra2.jpg"
+    },
+    {
+        "id": 3,
+        "provedor": "Ainoa Caps",
+        "brand": "fox racing",
+        "price":15,
+        "category": "Fox",
+        "img": "https://i.ibb.co/Pz6smMg/gorra3.jpg"
+    },
+    {
+        "id": 4,
+        "provedor": "Ainoa Caps",
+        "brand": "fox racing",
+        "price":15,
+        "category": "Fox",
+        "img": "https://i.ibb.co/jZ1nZQB/gorra4.jpg"
+    },
+    {
+        "id": 5,
+        "provedor": "Ainoa Caps",
+        "brand": "Ainoa Caps",
+        "price":15,
+        "category": "Ainoa Caps",
+        "img": "https://i.ibb.co/QFwqM8D/gorra5.jpg"
+    },
+    {
+       "id": 6,
+       "provedor": "Ainoa Caps",
+       "brand": "Ainoa Caps",
+       "price":15,
+        "category": "Ainoa Caps",
+        "img": "https://i.ibb.co/hmG5vnT/gorra9.jpg"
+    },
+    {
+        "id": 7,
+        "provedor": "Ainoa Caps",
+        "brand": "Tommy",
+        "price":15,
+        "category": "Tommy",
+        "img": "https://i.ibb.co/kSkw2Hw/gorra8.jpg"
+    },
+    {
+        "id": 8,
+        "provedor": "Ainoa Caps",
+        "brand": "Tommy",
+        "price":15,
+        "category": "Tommy",
+        "img": "https://i.ibb.co/F3823Ms/gorra12.jpg"
+    },
+    {
+        "id": 9,
+        "provedor": "Ainoa Caps",
+        "brand": "Nike",
+        "price":15,
+        "category": "Nike",
+        "img": "https://i.ibb.co/z2CPVr6/gorra6.jpg"
+    },
+    {
+        "id": 10,
+        "provedor": "Ainoa Caps",
+        "brand": "Ainoa Caps",
+        "price":15,
+        "category": "Ainoa Caps",
+        "img": "https://i.ibb.co/sjRLGzq/gorra10.jpg"
+    },
+    {
+        "id": 11,
+        "provedor": "Ainoa Caps",
+        "brand": "tommy",
+        "price":15,
+        "category":"Tommy",
+        "img": "https://i.ibb.co/8D9bcmZ/gorra11.jpg"
+    },
+    {
+        "id": 12,
+        "provedor": "Ainoa Caps",
+        "brand": "Adidas",
+        "price":20,
+        "category": "Adidas" ,
+        "img": "https://i.ibb.co/RY93hjK/gorra13.jpg"
+    }
+]

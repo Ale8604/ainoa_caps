@@ -1,0 +1,20 @@
+:root{
+--fondo: #333435;
+}
+
+.categories{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+.btn-category{
+    background-color: var(--fondo);
+    border: solid 1px white;
+    margin: 5px;
+    padding: 15px 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}

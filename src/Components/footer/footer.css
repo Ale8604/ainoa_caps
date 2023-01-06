@@ -1,0 +1,13 @@
+
+footer{
+    background: rgb(0,255,250);
+    background: linear-gradient(0deg, rgba(0,255,250,1) 0%, rgba(0,212,255,1) 85%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    height: 60px;
+    margin-top: auto;
+}
+
+footer p{
+    padding-top: 20px;
+    font-weight: 500;
+}
